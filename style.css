@@ -1,0 +1,20 @@
+body {
+    background: url("images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text {
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    color: snow;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+}
