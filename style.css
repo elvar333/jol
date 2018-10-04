@@ -5,6 +5,7 @@ body {
 }
 
 .text {
+    font-size: 200%;
     font-family: arial, helvetica, sans-serif;
     text-align: center;
     color: snow;
