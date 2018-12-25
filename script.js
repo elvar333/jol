@@ -10,6 +10,14 @@ let x = setInterval(function () {
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((distance % (1000 * 60)) / (1000));
 
-    document.getElementById("timer").innerHTML =
-        days + "d " + hours + "klst " + minutes + "m " + seconds + "s ";
+
+
+
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timer").innerHTML = "Gleðileg jól!";
+    } else {
+        document.getElementById("timer").innerHTML =
+            days + "d " + hours + "klst " + minutes + "m " + seconds + "s ";
+    }
 }, 1000);
