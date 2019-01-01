@@ -1,3 +1,3 @@
-# jól 2018
-### Jóla niðurteljari 2018 
+# jól
+### Jóla niðurteljari
 * [Teljari](https://elvar333.github.io/jol/)
