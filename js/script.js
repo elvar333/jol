@@ -12,11 +12,10 @@ let x = setInterval(function () {
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((distance % (1000 * 60)) / (1000));
 
-
-
-
     if (distance < 0) {
         clearInterval(x);
+        document.getElementById("text1").innerHTML = "";
+        document.getElementById("text2").innerHTML = "";
         document.getElementById("timer").innerHTML = "Gleðileg jól!";
     } else {
         document.getElementById("timer").innerHTML =
