@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-     background: #e23636 url("images/background.jpg") no-repeat center center fixed;
+     background: #e23636 no-repeat center center fixed;
      background-size: cover;
      overflow: hidden;
      height: 100%;
