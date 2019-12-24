@@ -1,4 +1,6 @@
-let countDownDate = new Date("Dec 24, 2019 18:00:00 GMT+0000").getTime();
+particlesJS.load('particles-js', 'assets/particles.json');
+
+let countDownDate = new Date("Dec 24, 2020 18:00:00 GMT+0000").getTime();
 
 let x = setInterval(function () {
     let now = new Date().getTime();
