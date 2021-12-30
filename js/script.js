@@ -1,5 +1,3 @@
-particlesJS.load('particles-js', 'assets/particles.json');
-
 let today = new Date();
 let countDownDate = new Date(`Dec 24, ${today.getFullYear()} 18:00:00 GMT+0000`).getTime();
 
