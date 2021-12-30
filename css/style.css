@@ -1,12 +1,11 @@
 html, body {
-    min-height: 100%;
+    height: 100vh;
 }
 
 body {
      background: #e23636 no-repeat center center fixed;
      background-size: cover;
      overflow: hidden;
-     height: 100%;
  }
 
 .wrapper {
