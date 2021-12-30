@@ -1,11 +1,12 @@
-html, body {
-    height: 100vh;
-}
-
 body {
      background: #e23636 no-repeat center center fixed;
      background-size: cover;
      overflow: hidden;
+     height: 100vh;
+ }
+
+ .particles-js {
+     height: 100%;
  }
 
 .wrapper {

@@ -17,6 +17,8 @@ let int = setInterval(function () {
         document.getElementById("text2").innerHTML = "";
         document.getElementById("timer").innerHTML = "Gleðileg jól!";
     } else {
+        document.getElementById("text1").innerHTML = "Það eru"
         document.getElementById("timer").innerHTML = `${days}d ${hours}klst ${minutes}m ${seconds}s`;
+        document.getElementById("text2").innerHTML = "til Jóla!"
     }
 }, 1000);
